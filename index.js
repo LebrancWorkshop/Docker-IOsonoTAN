@@ -8,7 +8,8 @@ const app = fastify({ logger: true });
 
 app.get('/', async() => {
 	return {
-		status: "OK"
+		status: "OK",
+		nodeENV
 	}
 });
 
